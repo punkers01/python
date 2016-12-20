@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 
 import datetime
 
-stock_test = []
-labels_test = []
-
 
 def get_data(url):
     response = urllib.urlopen(url).readlines()
